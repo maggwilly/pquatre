@@ -9,5 +9,5 @@ git clone https://github.com/maggwilly/pquatre.git
 cd pquatre
 git checkout -b develop
 ```
-# Importe le projet dans eclipse 
+## Importe le projet dans eclipse 
 Suivre les etapes qui sont dans le dossier Setup du projet.
