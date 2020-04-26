@@ -13,5 +13,4 @@ public class App
     	PrintStream console=AppContext.getConsole();
     	console.println( "Hello World!" );
     }
-    /* Ce-ci est un exemple de modification pour voir com;ent git fonctionne. */
 }
