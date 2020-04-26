@@ -11,3 +11,20 @@ git checkout -b develop
 ```
 ## Importe le projet dans eclipse 
 Suivre les etapes qui sont dans le dossier Setup du projet.
+
+## Enregistrer les modifications
+```
+git add --all
+git commit -m "Description des modifications effectuées"
+```
+
+## Enrégistrer les modifications en ligne
+```
+git push origin develop
+```
+
+## Mettre à jour le projet après que quelqu'un d'autre ait fait des modifications
+
+```
+git pull origin master
+```
