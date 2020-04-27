@@ -12,8 +12,8 @@ public class App
     {
     	PrintStream console=AppContext.getConsole();
     	console.println( "Hello World!" );
-    	Humain h=new Humain();
-    	h.joue();
+    	
+    	
     
     }
 }

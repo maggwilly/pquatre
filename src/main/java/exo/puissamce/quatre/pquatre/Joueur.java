@@ -1,5 +1,5 @@
 package exo.puissamce.quatre.pquatre;
-import java.awt.*;
+import java.awt.Color;
  abstract public class Joueur {
 	 
 protected   Color couleur;
@@ -13,6 +13,6 @@ protected   Color couleur;
  }
  
   public void setCouleur(Color couleur){
-	  
+	  this.couleur=couleur;
   }
 }
