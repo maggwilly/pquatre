@@ -5,7 +5,11 @@ import java.util.Date;
 import java.util.List;
 
 public class Partie {
+<<<<<<< HEAD
 	private List<Joueur> joueurs=new ArrayList<Joueur>();
+=======
+	private List<Joueur> joueurs;
+>>>>>>> 26bb81648469eac005cf409167118a06486fca72
 	private Grille grille;
 	private boolean terminee;
 	private Date dateDebut;
@@ -15,6 +19,10 @@ public class Partie {
 
 	public Partie() {
 		super();
+<<<<<<< HEAD
+=======
+		this.joueurs=new ArrayList<Joueur>();
+>>>>>>> 26bb81648469eac005cf409167118a06486fca72
 	}
 
 	public Grille getGrille() {
@@ -72,9 +80,12 @@ public class Partie {
 		return joueurs;
 	}
 
+<<<<<<< HEAD
 	public void ajouterJoueur(Joueur joueur) throws Exception{
 		if(joueurs.size()<=2)
 		  this.joueurs.add(joueur);
 		else throw new Exception("Pas plus de deux joueurs pour une partie");
 	}
+=======
+>>>>>>> 26bb81648469eac005cf409167118a06486fca72
 }
