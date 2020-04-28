@@ -1,4 +1,4 @@
-package exo.puissamce.quatre.pquatre;
+package exo.puissamce.quatre.pquatre.model;
 
 
 
@@ -18,8 +18,12 @@ public Pion[][] getCases() {
 public void setCases(Pion[][] cases) {
 	this.cases = cases;
 }
+/* methode permettant de retourner un pion*/
 
-
+public Pion getPion(int ligne,int colonne){
+	
+	return cases[6][7]; 
+}
 
 
 

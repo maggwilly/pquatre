@@ -1,4 +1,4 @@
-package exo.puissamce.quatre.pquatre;
+package exo.puissamce.quatre.pquatre.model;
 
 import java.sql.Date;
 
@@ -12,7 +12,18 @@ private int etat;
 private Date dateDebut;
 private Date dateFin;
 private Joueur gagnant;
-
+public Partie( Joueur[] joueur,Grille grille,int joueurCourant, boolean statut,int etat,Date dateDebut,Date dateFin,Joueur gagnant){
+	
+	this.joueur=joueur;
+	this.grille=grille;
+	this.joueurCourant=joueurCourant;
+	this.statut=statut;
+	this.etat=etat;
+	this.dateDebut=dateDebut;
+	this.dateFin=dateFin;
+	this.gagnant=gagnant;
+	
+}
 public Joueur[] getJoueur() {
 	return joueur;
 }
@@ -28,7 +39,7 @@ public void setGrille(Grille grille) {
 public int getJoueurCourant() {
 	return joueurCourant;
 }
-public void setJoueurCourant(int joueurCourant) {
+public void setJoueurCourant(int joueurCourant)  {
 	this.joueurCourant = joueurCourant;
 }
 public boolean isStatut() {
@@ -60,11 +71,26 @@ public Joueur getGagnant() {
 }
 public void setGagnant(Joueur gagnant) {
 	this.gagnant = gagnant;
+	
+	/*methode permettant d'ajouter un jour*/
 }
+int nbreJoueur=0;
+public void ajouterJoueur(Joueur j)
+{ ++nbreJoueur;
 
-
+if (nbreJoueur<=2){
+	joueur[nbreJoueur -1]=j;	
+}
+else
+{
+	System.out.println( " pas plus de deux  joueur");
+}
+	
+}
+}
+	
 
 
  
-}
+
 

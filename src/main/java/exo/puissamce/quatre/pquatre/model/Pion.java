@@ -1,4 +1,4 @@
-package exo.puissamce.quatre.pquatre;
+package exo.puissamce.quatre.pquatre.model;
 
 public class Pion {
 	
@@ -17,7 +17,7 @@ public class Pion {
 
 	public void setCouleur(Couleur couleur) {
 		this.couleur = couleur;
-	}
+	}  
 	
 
 }

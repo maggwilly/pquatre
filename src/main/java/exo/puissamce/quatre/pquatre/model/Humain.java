@@ -1,4 +1,4 @@
-package exo.puissamce.quatre.pquatre;
+package exo.puissamce.quatre.pquatre.model;
 
 public class Humain extends Joueur {
 private String nom;
