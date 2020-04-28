@@ -1,12 +1,23 @@
 package exo.puissamce.quatre.pquatre;
 
 public class Pion {
-	private Joueur joueur;
 	
-	public void setJoueur(Joueur joueur){
+	private Couleur couleur;
+	
+	public Pion(Couleur couleur)
+	{
 		
+		this.couleur=couleur;
 	}
-public Joueur setJoueur(){
-	return joueur;
-}
+
+	
+	public Couleur getCouleur() {
+		return couleur;
+	}
+
+	public void setCouleur(Couleur couleur) {
+		this.couleur = couleur;
+	}
+	
+
 }
