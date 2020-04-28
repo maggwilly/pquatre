@@ -5,12 +5,17 @@ private String nom;
 private String prenom;
 private String email;
 
-public Humain(String nom,String prenom ,String email)
-{
-	this.nom=nom;
-	this.prenom=prenom;
-	this.email=email;
+
+public Humain() {
+	super();
 }
+
+
+public Humain(String nom) {
+	super();
+	this.nom = nom;
+}
+
 
 public String getNom() {
 	return nom;
