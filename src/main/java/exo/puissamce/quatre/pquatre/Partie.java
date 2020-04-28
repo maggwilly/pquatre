@@ -12,7 +12,18 @@ private int etat;
 private Date dateDebut;
 private Date dateFin;
 private Joueur gagnant;
-
+public Partie( Joueur[] joueur,Grille grille,int joueurCourant, boolean statut,int etat,Date dateDebut,Date dateFin,Joueur gagnant){
+	
+	this.joueur=joueur;
+	this.grille=grille;
+	this.joueurCourant=joueurCourant;
+	this.statut=statut;
+	this.etat=etat;
+	this.dateDebut=dateDebut;
+	this.dateFin=dateFin;
+	this.gagnant=gagnant;
+	
+}
 public Joueur[] getJoueur() {
 	return joueur;
 }
