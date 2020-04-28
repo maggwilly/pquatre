@@ -3,28 +3,20 @@ package exo.puissamce.quatre.pquatre.model;
 
 
 public class Grille {
-private Pion[][] cases ={{},{}};
+private final Pion[][] cases;
 
-public Grille(Pion[][] cases ){
-		
-	this.cases=cases;
-}
-/*definition des methodes*/
 
-public Pion[][] getCases() {
-	return cases;
-}
-
-public void setCases(Pion[][] cases) {
+public Grille(Pion[][] cases) {
+	super();
 	this.cases = cases;
 }
-/* methode permettant de retourner un pion*/
 
-public Pion getPion(int ligne,int colonne){
-	
-	return cases[6][7]; 
+
+
+public Pion getPion(int ligne,int colonne) throws Exception{
+	if(ligne<cases.length&&colonne<cases[ligne].length)
+	return cases[ligne][colonne];
+	throw new Exception("Vous avez depassé les bornes de la grille"); 
 }
-
-
 
 }
