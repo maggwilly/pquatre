@@ -1,5 +1,3 @@
 package exo.puissamce.quatre.pquatre;
 
-public enum Couleur {
-
-}
+public enum Couleur {rouge,jaune}
