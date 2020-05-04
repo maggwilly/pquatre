@@ -75,4 +75,6 @@ public class Partie {
 		  this.joueurs.add(joueur);
 		else throw new Exception("Pas plus de deux joueurs pour une partie");
 	}
+
+	                               
 }

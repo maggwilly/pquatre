@@ -17,6 +17,7 @@ public class Pion {
 
 	public void setCouleur(Couleur couleur) {
 		this.couleur = couleur;
+		
 	}  
 	
 

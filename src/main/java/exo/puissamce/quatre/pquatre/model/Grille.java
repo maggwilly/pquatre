@@ -1,7 +1,5 @@
 package exo.puissamce.quatre.pquatre.model;
 
-
-
 public class Grille {
 private final Pion[][] cases;
 
@@ -9,10 +7,6 @@ private final Pion[][] cases;
 public Grille(Pion[][] cases) {
 	super();
 	this.cases = cases;
-}
-
-public Grille() {
-	super();
 }
 
 
