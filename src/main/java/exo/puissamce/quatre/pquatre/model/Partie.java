@@ -73,7 +73,7 @@ public class Partie {
 	public void ajouterJoueur(Joueur joueur) throws Exception{
 		if(joueurs.size()<=2)
 		  this.joueurs.add(joueur);
-		else throw new Exception("Pas plus de deux joueurs pour une partie");
+		else throw new Exception("Pas plus de deux joueurs pour une partie v");
 	}
 
 	                               
